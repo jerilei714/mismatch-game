@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Recognizing Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pattern Recognizing Game</h1>
+        <div id="pattern-container">
+            <div id="pattern"></div>
+        </div>
+        <div id="buttons-container">
+            <div id="buttons"></div>
+        </div>
+        <button id="resetBtn">Reset Game</button><br>
+        <div class="tutorial">
+            <p><br>Follow the pattern by clicking the colored buttons.</p>
+            <p>Score: <span id="score">0</span></p>
+            <p>Level: <span id="level">1</span></p>
+        </div>
+        <p><br>Leaderboard</p>
+        <div id="leaderboard"></div>
+    </div>
+    <script src="leaderboard.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
